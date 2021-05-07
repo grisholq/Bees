@@ -1,0 +1,170 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.3f1 (8ff31bc5bf5b) revision 9433883'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.928; Version 2009; 64bit' Language: 'ru' Physical Memory: 8155 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/grisholq/Desktop/Bees Test/Bees
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51213
+Successfully changed project path to: C:/Users/grisholq/Desktop/Bees Test/Bees
+C:/Users/grisholq/Desktop/Bees Test/Bees
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 32.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.3f1 (8ff31bc5bf5b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/grisholq/Desktop/Bees Test/Bees/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002655 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 32.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.823 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000887 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.114 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.5 MB.
+System memory in use after: 56.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1540.
+Total: 2.184800 ms (FindLiveObjects: 0.261500 ms CreateObjectMapping: 0.063400 ms MarkObjects: 1.767700 ms  DeleteObjects: 0.090800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Import
+  artifactKey: Guid(b20f80fd41a126f48b66f5c1a4eb9c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import using Guid(b20f80fd41a126f48b66f5c1a4eb9c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17867f05af19f80f59d8186e12bbc1ec') in 0.011676 seconds
+  Import took 0.042998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.324123 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(b9a49839a9a353747a359ba6f38b6154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(b9a49839a9a353747a359ba6f38b6154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a7956d88e75071778d469c868cc9fe') in 0.007967 seconds
+  Import took 0.010703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000714 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(b9a49839a9a353747a359ba6f38b6154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(b9a49839a9a353747a359ba6f38b6154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a7956d88e75071778d469c868cc9fe') in 0.002955 seconds
+  Import took 0.005032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.349937 seconds.
+  path: Assets/Import/Resources/Beekeeper
+  artifactKey: Guid(d1b1bf7a10a6aaa49a57d3d1397bbf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Resources/Beekeeper using Guid(d1b1bf7a10a6aaa49a57d3d1397bbf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31054eb8a5bd6f80943c3492402f5172') in 0.008857 seconds
+  Import took 0.011302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.094593 seconds.
+  path: Assets/Import/Resources/Bees/Fbx/drone.fbx
+  artifactKey: Guid(0d1dfed319ebadd419ec4d63792c3e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Resources/Bees/Fbx/drone.fbx using Guid(0d1dfed319ebadd419ec4d63792c3e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edbe02cb71ee0cbeca524316847b6e99') in 0.835895 seconds
+  Import took 0.838764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.958425 seconds.
+  path: Assets/Import/Resources/Bees/Fbx/beeQueen.fbx
+  artifactKey: Guid(935f89ec70371c54c9911a51ba630c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Resources/Bees/Fbx/beeQueen.fbx using Guid(935f89ec70371c54c9911a51ba630c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7166787efbeeba9c71505e1495ee0b') in 0.082197 seconds
+  Import took 0.084879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.966241 seconds.
+  path: Assets/Import/Resources/Bees/Textures/wasp.png
+  artifactKey: Guid(2026c6ac976b51d429ca484cac189aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Resources/Bees/Textures/wasp.png using Guid(2026c6ac976b51d429ca484cac189aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb9808b57f82d3911ac0ed227c90db8') in 0.132554 seconds
+  Import took 0.135908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.152390 seconds.
+  path: Assets/Import/Resources/Bees/Textures/wasp.png
+  artifactKey: Guid(2026c6ac976b51d429ca484cac189aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Resources/Bees/Textures/wasp.png using Guid(2026c6ac976b51d429ca484cac189aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb9808b57f82d3911ac0ed227c90db8') in 0.014637 seconds
+  Import took 0.017724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.648203 seconds.
+  path: Assets/Import/Resources/Flowers/Fbx
+  artifactKey: Guid(1d9a5a4c949ce1e409460b9ed852db35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Resources/Flowers/Fbx using Guid(1d9a5a4c949ce1e409460b9ed852db35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b339baf1004a9e2f35da164ab61be3e7') in 0.008913 seconds
+  Import took 0.011458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.379539 seconds.
+  path: Assets/Import/Resources/House/Fbx
+  artifactKey: Guid(992ce4d07d5bd75458a34a47e5015ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Resources/House/Fbx using Guid(992ce4d07d5bd75458a34a47e5015ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2c948f0899c67837755f5126876768') in 0.002675 seconds
+  Import took 0.005087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.282889 seconds.
+  path: Assets/Import/Resources/Sky/Textures
+  artifactKey: Guid(d9a5278a8d20bfb45867d8090bd11579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Resources/Sky/Textures using Guid(d9a5278a8d20bfb45867d8090bd11579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa859108822b498b0e386524764e6f3') in 0.009980 seconds
+  Import took 0.012398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.379962 seconds.
+  path: Assets/Import/Resources/Truck/Fbx
+  artifactKey: Guid(8acd3202f9cc9264f9998a290cb8fe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Resources/Truck/Fbx using Guid(8acd3202f9cc9264f9998a290cb8fe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7970d968872d2431fe5a0389d1964124') in 0.002610 seconds
+  Import took 0.005114 seconds .
+
