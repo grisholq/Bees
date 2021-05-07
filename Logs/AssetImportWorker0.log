@@ -168,3 +168,59 @@ Received Import Request.
 Start importing Assets/Import/Resources/Truck/Fbx using Guid(8acd3202f9cc9264f9998a290cb8fe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7970d968872d2431fe5a0389d1964124') in 0.002610 seconds
   Import took 0.005114 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 256.314124 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653ce283d384579a24208b2e4d727c2a') in 0.010863 seconds
+  Import took 0.085088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.629839 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(ed50cc9d4e4974a4182a6144383644fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(ed50cc9d4e4974a4182a6144383644fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d55fe462c2f89ecd67df7b281f9159') in 0.009722 seconds
+  Import took 0.012110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.551533 seconds.
+  path: Assets/Scripts/Scene
+  artifactKey: Guid(914fa4cb2907c6a46b16e027bb6ff02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Scene using Guid(914fa4cb2907c6a46b16e027bb6ff02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce55ddff7772e695edb0f4f125931324') in 0.008662 seconds
+  Import took 0.011507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.300662 seconds.
+  path: Assets/Scripts/Scene/SceneCreator.cs
+  artifactKey: Guid(0663d4aad5b2c0b4a996aa24f9a0f765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Scene/SceneCreator.cs using Guid(0663d4aad5b2c0b4a996aa24f9a0f765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da9f5ba622b56b3f1433aa9d856eeb6') in 0.015357 seconds
+  Import took 0.018350 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000903 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.009 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1095 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.8 MB.
+System memory in use after: 70.9 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1555.
+Total: 1.908900 ms (FindLiveObjects: 0.142700 ms CreateObjectMapping: 0.049100 ms MarkObjects: 1.655900 ms  DeleteObjects: 0.059900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
