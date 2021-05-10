@@ -12,16 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7d2baa0d2339ce4ba7244a94f811718, type: 3}
   m_Name: FlowersSettings
   m_EditorClassIdentifier: 
-  FlowersPrefab: []
+  FlowersPrefab:
+  - {fileID: 7072249329744370930, guid: 3a4b116ee0ec9d44d84d7cf5c358fd4a, type: 3}
+  - {fileID: 8093808786844951680, guid: 490c5be0025b7a54697c791f049c7724, type: 3}
+  - {fileID: 766952499700961756, guid: 23ccaa978022eb64f87c1691f37bb646, type: 3}
   StartAmount:
     min: 0
-    max: 0
-  SpawnRate: 0
+    max: 5
+  SpawnRate: 0.2
   StartHoney:
-    min: 0
-    max: 0
+    min: 5
+    max: 10
   HoneyRegeneration:
-    min: 0
-    max: 0
+    min: 0.1
+    max: 0.2
   DieHoneyAmount: 0
-  MaxBeesOnFlower: 0
+  MaxBeesOnFlower: 4

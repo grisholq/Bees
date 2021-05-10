@@ -1,13 +1,22 @@
-﻿using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections.Generic;
 
 public class FlowersManager : MonoBehaviour
 {
-    [SerializeField] private FlowersSpawner spawner;
-    [SerializeField] private int amount;
+    [SerializeField] private FlowersFactory factory;
+    [SerializeField] private FlowersSettings settings;
 
-    private void Start()
+    private float flowersToSpawn;
+
+    public int FlowersToSpawn { get => (int)flowersToSpawn; }
+
+    private void Awake()
     {
-        spawner.SpawnFlowers(amount);
+        flowersToSpawn = 0;
+    }
+
+    private void Update()
+    {
+        flowersToSpawn += Time.deltaTime * settings.SpawnRate;
     }
 }

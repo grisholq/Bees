@@ -2,12 +2,12 @@
 
 public class FlowersFactory : MonoBehaviour
 {
+    [SerializeField] private FlowersPositioner positioner;
     [SerializeField] private FlowersSettings settings;
     [SerializeField] private Transform parent;
 
     public Flower GetFlower()
-    {
-        
+    {   
         Flower flower = new Flower();
         FlowerView view = GetFlowerPrefab().AddComponent<FlowerView>();
 
@@ -17,6 +17,8 @@ public class FlowersFactory : MonoBehaviour
         flower.Honey = settings.StartHoney.Value;
         flower.HoneyRegeneration = settings.HoneyRegeneration.Value;
         flower.MaxBees = settings.MaxBeesOnFlower;
+
+        positioner.PositionFlower(view);
 
         return flower;
     }
