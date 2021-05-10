@@ -7,12 +7,13 @@ public class FlowersFactory : MonoBehaviour
 
     public Flower GetFlower()
     {
+        
         Flower flower = new Flower();
         FlowerView view = GetFlowerPrefab().AddComponent<FlowerView>();
 
         view.FlowerModel = flower;
-        flower.FlowerView = view;
 
+        flower.FlowerView = view;
         flower.Honey = settings.StartHoney.Value;
         flower.HoneyRegeneration = settings.HoneyRegeneration.Value;
         flower.MaxBees = settings.MaxBeesOnFlower;

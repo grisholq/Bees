@@ -5,7 +5,7 @@ public class FlowersSettings : ScriptableObject
 {
     public Transform[] FlowersPrefab;
     
-    public FloatRange StartAmount;
+    public IntegerRange StartAmount;
     public float SpawnRate;
 
     public FloatRange StartHoney;
